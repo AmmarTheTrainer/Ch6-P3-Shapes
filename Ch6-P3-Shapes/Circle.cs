@@ -23,4 +23,19 @@ namespace Ch6_P3_Shapes
             Console.WriteLine("Drawing {0} the Circle", PetName);
         }
     }
+    class ThreeDCircle : Circle
+    {
+        public new void Draw()
+        {
+            Console.WriteLine("Drawing a 3D Circle");
+        }
+    }
+
+    //class CustomShape
+    //{
+    //    public void Draw()
+    //    {
+    //        Console.WriteLine("Drawing a 3D Circle");
+    //    }
+    //}
 }
